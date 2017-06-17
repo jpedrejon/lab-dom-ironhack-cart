@@ -2,16 +2,26 @@ input {
   border: solid 1px black;
 }
 
-.container {
-
+.title {
+  font-family: helvetica;
+  margin: 10px;
+  font-size: 18px;
+  background-color: white;
+  text-align: center;
+  margin-top: 5%;
 }
 
-.info-container {
-
+#container > div {
+  margin-left: 15%;
 }
 
-.item {
-
+.item > div {
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  width: 30px;
+  padding: 10px;
+  margin-left: 10%;
 }
 
 .row {
@@ -60,16 +70,23 @@ input {
   border-radius: 4px;
 }
 
-.btn-success {
+#calc-prices-button {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    margin:10px;
+    text-align: center;
+}
+
+#show-price {
+    text-align: center;
 }
 
 .btn-delete {
     color: #fff;
     background-color: #CF000F;
     border-color: #CF000F;
+    text-align: center;
 }
 
 .quantity {
